@@ -1,8 +1,5 @@
-# Amazon-spending-trend
-Using Python pandas, I cleaned and analysis amazon spending trend
 Note: For privacy purpose some of the data is removed from the dataset
-
-##The analysis includ
+#The analysis include:
 Cleaning the data
 Calculating toatal amaount spend on amazon. 
 Calculate the average, median, minimum and maximum spending

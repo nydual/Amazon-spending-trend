@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 import pandas as pd  #pd tells python to use pandas to operations
 df = pd.read_csv('/Users/nyadual/Desktop/amazon_orders_history.csv')
@@ -80,21 +75,6 @@ df['shipping_refund'].sum() #-209.7
 #Overall total spent on shipping / since the shipping refund is negative, i used + to - the sums
 df['shipping'].sum() + df['shipping_refund'].sum() #239.25000000000006
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

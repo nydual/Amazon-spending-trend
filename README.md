@@ -1,4 +1,6 @@
 Note: For privacy purpose some of the data is removed from the dataset
+
+
 #The analysis include:
 Cleaning the data
 Calculating toatal amaount spend on amazon. 

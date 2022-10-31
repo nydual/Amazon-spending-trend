@@ -1,4 +1,5 @@
 #The analysis include:
+
 Cleaning the data
 Calculating toatal amaount spend on amazon. 
 Calculate the average, median, minimum and maximum spending

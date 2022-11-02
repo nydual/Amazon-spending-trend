@@ -23,7 +23,7 @@ df["total"].sum() # 9306.369999999999
 df["total"].mean() # 47.724974358974315 
 df["total"].median() # 35.78
 df["total"].max()  #352.67
-df["total"].min() #0.0 what on earth i got for free on amazon lol
+df["total"].min() #0.0 what on earth did i get for free on amazon
 
 
 # Calaculate how much i paid slaes tax. 
@@ -33,7 +33,7 @@ df.head()
 
 #Analysing the value added Tax column
 df["VAT"].sum() #8608.77 am shooked !! That's alot
-#some items did not charge aany taxes. To figure out the overall tax charge
+#some items did not charge any taxes. To figure out the overall tax charge
 #To do that divide total/VAT
 df["total"].sum()/df["VAT"].sum()  #overall effective tax rate is  1.08
 
@@ -62,7 +62,7 @@ df["shipping"] = df["shipping"].str.replace('$','', regex =True).astype(float)
 df.head()
 
 #calculate the total amount i paid for shipping
-df['shipping'].sum() # 448.95000000000005 weird since i use prime
+df['shipping'].sum() # 448.95000000000005
 #Avaerage spending for shipping
 df['shipping'].mean() # 2.3023076923076937
 
